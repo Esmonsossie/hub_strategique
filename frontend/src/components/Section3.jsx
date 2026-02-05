@@ -35,10 +35,10 @@ const Section3 = () => {
         <div className="flex flex-col lg:flex-row gap-8 mb-12">
           {/* Colonne 1 : Ce que tu trouveras */}
           <div className="w-full lg:w-1/3 transform hover:translate-x-2 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                  <Navigation className="text-yellow-400" size={24} />
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <Navigation className="text-black" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-white">
                   Ce que tu trouveras
@@ -47,8 +47,8 @@ const Section3 = () => {
 
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -58,8 +58,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -69,8 +69,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -80,8 +80,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -89,8 +89,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -100,8 +100,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-yellow-400 text-sm">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-sm">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -115,10 +115,10 @@ const Section3 = () => {
 
           {/* Colonne 2 : L'esprit du Hub */}
           <div className="w-full lg:w-1/3 transform hover:translate-y-2 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                  <Users className="text-yellow-400" size={24} />
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <Users className="text-black" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-white">
                   L'esprit du HUB
@@ -127,8 +127,8 @@ const Section3 = () => {
 
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-green-400 text-xs">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-xs">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -136,8 +136,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-green-400 text-xs">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-xs">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -145,8 +145,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-green-400 text-xs">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-xs">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -154,8 +154,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-green-400 text-xs">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-xs">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -165,8 +165,8 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-green-400 text-xs">
+                  <div className="w-6 h-6 bg-white/80 rounded-full flex items-center justify-center shrink-0 mt-1">
+                    <span className="text-black text-xs">
                       <RiCheckboxCircleFill />
                     </span>
                   </div>
@@ -175,7 +175,7 @@ const Section3 = () => {
                   </p>
                 </div>
 
-                <div className="mt-6 p-4 bg-black/30 rounded-lg border-l-4 border-yellow-500">
+                <div className="mt-6 p-4 bg-gray-900/60 rounded-lg border-l-4 border-white">
                   <p className="text-gray-300 italic text-sm">
                     Ici, chacun est à la fois apprenant et contributeur.
                   </p>
@@ -186,10 +186,10 @@ const Section3 = () => {
 
           {/* Colonne 3 : Nos règles de base */}
           <div className="w-full lg:w-1/3 transform hover:translate-x-2 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                  <Target className="text-yellow-400" size={24} />
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <Target className="text-black" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-white">
                   Nos règles de base
@@ -199,7 +199,7 @@ const Section3 = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-red-400 text-xs">
+                    <span className="text-white text-xs">
                       <RiCloseCircleFill />
                     </span>
                   </div>
@@ -208,7 +208,7 @@ const Section3 = () => {
 
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-red-400 text-xs">
+                    <span className="text-white text-xs">
                       <RiCloseCircleFill />
                     </span>
                   </div>
@@ -217,7 +217,7 @@ const Section3 = () => {
 
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
-                    <span className="text-red-400 text-xs">
+                    <span className="text-white text-xs">
                       <RiCloseCircleFill />
                     </span>
                   </div>
@@ -225,7 +225,7 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-green-400 text-xs">
                       <RiCheckboxCircleFill />
                     </span>
@@ -236,7 +236,7 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-green-400 text-xs">
                       <RiCheckboxCircleFill />
                     </span>
@@ -255,23 +255,23 @@ const Section3 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {/* Colonne 1 : Notre philosophie */}
           <div className="w-full transform hover:translate-x-4 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                  <Sparkles className="text-yellow-400" size={24} />
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <Sparkles className="text-black" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-white">
-                  🛠️ Notre philosophie
+                  Notre philosophie
                 </h3>
               </div>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Zap className="text-yellow-400" size={20} />
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shrink-0">
+                    <Zap className="text-black" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-yellow-300 mb-1">
+                    <h4 className="text-lg font-bold text-white mb-1">
                       Action avant perfection
                     </h4>
                     <p className="text-gray-400">
@@ -282,11 +282,11 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <TrendingUp className="text-yellow-400" size={20} />
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shrink-0">
+                    <TrendingUp className="text-black" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-yellow-300 mb-1">
+                    <h4 className="text-lg font-bold text-white mb-1">
                       Progrès avant comparaison
                     </h4>
                     <p className="text-gray-400">
@@ -297,11 +297,11 @@ const Section3 = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Award className="text-yellow-400" size={20} />
+                  <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shrink-0">
+                    <Award className="text-black" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-yellow-300 mb-1">
+                    <h4 className="text-lg font-bold text-white mb-1">
                       Valeur avant visibilité
                     </h4>
                     <p className="text-gray-400">
@@ -315,11 +315,11 @@ const Section3 = () => {
           </div>
 
           {/* Colonne 2 : Pour qui est ce Hub */}
-          <div className="w-full transform hover:translate-x-4 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+          <div className="w-full transform hover:translate-x-4 transition duration-700">
+            <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                  <Users className="text-yellow-400" size={24} />
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <Users className="text-black" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-white">
                   Pour qui est ce Hub ?
@@ -328,33 +328,31 @@ const Section3 = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-black/30 p-4 rounded-lg">
-                  <p className="font-semibold text-yellow-200">
-                    Salariés ambitieux
-                  </p>
+                  <p className="font-semibold text-white">Salariés ambitieux</p>
                 </div>
                 <div className="bg-black/30 p-4 rounded-lg">
-                  <p className="font-semibold text-yellow-200">
+                  <p className="font-semibold text-white">
                     Entrepreneurs & freelances
                   </p>
                 </div>
                 <div className="bg-black/30 p-4 rounded-lg">
-                  <p className="font-semibold text-yellow-200">
+                  <p className="font-semibold text-white">
                     Créateurs de contenu
                   </p>
                 </div>
                 <div className="bg-black/30 p-4 rounded-lg">
-                  <p className="font-semibold text-yellow-200">
+                  <p className="font-semibold text-white">
                     Porteurs de projets
                   </p>
                 </div>
                 <div className="bg-black/30 p-4 rounded-lg col-span-1 md:col-span-2">
-                  <p className="font-semibold text-yellow-200">
+                  <p className="font-semibold text-white">
                     Personnes en transition professionnelle
                   </p>
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-black/30 rounded-lg border-l-4 border-yellow-500">
+              <div className="mt-6 p-4 bg-gray-900/60 rounded-lg border-l-4 border-white">
                 <p className="text-gray-300 italic text-sm">
                   Si tu veux évoluer, apprendre et agir : tu es au bon endroit.
                 </p>
@@ -364,11 +362,11 @@ const Section3 = () => {
         </div>
 
         {/* Colonne 3 : Ce que le Hub attend */}
-        <div className=" mx-auto w-full md:w-1/2 transform hover:scale-110 transition duration-500">
-          <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-yellow-300/30 h-full">
+        <div className=" mx-auto w-full md:w-1/2 transform hover:scale-102 transition duration-500">
+          <div className="bg-black/40 backdrop-blur-sm p-6 rounded-xl border border-white/50 h-full">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-                <Zap className="text-yellow-400" size={24} />
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                <Zap className="text-black" size={24} />
               </div>
               <h3 className="text-xl font-bold text-white">
                 Ce que le Hub attend de toi
@@ -376,25 +374,25 @@ const Section3 = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="bg-yellow-500/10 p-4 rounded-lg text-center">
-                <p className="font-bold text-yellow-300 text-lg">Participer</p>
+              <div className="bg-white p-4 rounded-lg text-center">
+                <p className="font-bold text-black text-lg">Participer</p>
               </div>
-              <div className="bg-yellow-500/10 p-4 rounded-lg text-center">
-                <p className="font-bold text-yellow-300 text-lg">Tester</p>
+              <div className="bg-white p-4 rounded-lg text-center">
+                <p className="font-bold text-black text-lg">Tester</p>
               </div>
-              <div className="bg-yellow-500/10 p-4 rounded-lg text-center">
-                <p className="font-bold text-yellow-300 text-lg">Partager</p>
+              <div className="bg-white p-4 rounded-lg text-center">
+                <p className="font-bold text-black text-lg">Partager</p>
               </div>
-              <div className="bg-yellow-500/10 p-4 rounded-lg text-center">
-                <p className="font-bold text-yellow-300 text-lg">Appliquer</p>
+              <div className="bg-white p-4 rounded-lg text-center">
+                <p className="font-bold text-black text-lg">Appliquer</p>
               </div>
             </div>
 
-            <div className="mt-6 p-4 bg-red-900/20 rounded-lg border-l-6 border-red-900">
-              <p className="text-red-100 text-center italic">
+            <div className="mt-6 p-4 bg-gray-900/60 rounded-lg border-l-6 border-white">
+              <p className="text-gray-300 text-center italic">
                 Ce Hub n'est pas un groupe d'observation.
               </p>
-              <p className="text-yellow-100 text-center mt-2">
+              <p className="text-gray-500 text-center mt-2">
                 C'est un terrain d'entraînement.
               </p>
             </div>

@@ -4,7 +4,7 @@ import { TrendingUp, Globe, Smartphone, Briefcase, Brain } from "lucide-react";
 const Section2 = () => {
   return (
     <div className="min-h-screen bg-[#0c0c04] py-16 md:py-24" id="mission">
-      <div className="container mx-auto px-4 md:px-8 lg:px-16">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16 mt-4 md:mt-8">
         {/* Titre principal */}
         <div className="text-center mb-16 ">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -19,16 +19,17 @@ const Section2 = () => {
         {/* Contenu */}
         <div className="flex flex-col lg:flex-row gap-14 lg:gap-20 items-start">
           {/* Colonne gauche - Développements */}
-          <div className="w-full lg:w-1/2 transform hover:scale-90 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-8 rounded-xl border border-yellow-300/30">
-              <h3 className="text-2xl font-bold text-yellow-300 mb-8 text-center">
+          <div className="w-full lg:w-1/2 transform hover:scale-98 transition duration-700">
+            <div className="bg-white text-black backdrop-blur-sm p-8 rounded-xl border border-gray-900">
+              <h3 className="text-2xl font-bold  mb-8 text-center">
                 Ce que nous développons ensemble
               </h3>
+              <div className="w-18 h-1 bg-black mx-auto mb-6 -mt-4"></div>
 
               {/* Développement commercial */}
-              <div className="flex items-start gap-4 p-4 bg-black/30 rounded-lg mb-4">
-                <div className="w-10 h-10 bg-yellow-600 rounded-lg flex items-center justify-center p-4">
-                  <span className="text-xl text-white">
+              <div className="flex items-start gap-4 p-4 bg-black rounded-lg mb-4">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-4">
+                  <span className="text-xl text-black">
                     <TrendingUp size={24} />
                   </span>
                 </div>
@@ -43,9 +44,9 @@ const Section2 = () => {
               </div>
 
               {/* Personal branding */}
-              <div className="flex items-start gap-4 p-4 bg-black/30 rounded-lg mb-4">
-                <div className="w-10 h-10 bg-yellow-600 rounded-lg flex items-center justify-center p-4">
-                  <span className="text-xl text-white">
+              <div className="flex items-start gap-4 p-4 bg-black rounded-lg mb-4">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-4">
+                  <span className="text-xl text-black">
                     <Globe size={24} />
                   </span>
                 </div>
@@ -60,9 +61,9 @@ const Section2 = () => {
               </div>
 
               {/* Communication digitale */}
-              <div className="flex items-start gap-4 p-4 bg-black/30 rounded-lg mb-4">
-                <div className="w-10 h-10 bg-yellow-600 rounded-lg flex items-center justify-center p-4">
-                  <span className="text-xl text-white">
+              <div className="flex items-start gap-4 p-4 bg-black rounded-lg mb-4">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-4">
+                  <span className="text-xl text-black">
                     <Smartphone size={24} />
                   </span>
                 </div>
@@ -77,9 +78,9 @@ const Section2 = () => {
               </div>
 
               {/* Carrière */}
-              <div className="flex items-start gap-4 p-4 bg-black/30 rounded-lg mb-4">
-                <div className="w-10 h-10 bg-yellow-600 rounded-lg flex items-center justify-center p-4">
-                  <span className="text-xl text-white">
+              <div className="flex items-start gap-4 p-4 bg-black rounded-lg mb-4">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-4">
+                  <span className="text-xl text-black">
                     <Briefcase size={24} />
                   </span>
                 </div>
@@ -94,9 +95,9 @@ const Section2 = () => {
               </div>
 
               {/* Mindset entrepreneurial */}
-              <div className="flex items-start gap-4 p-4 bg-black/30 rounded-lg">
-                <div className="w-10 h-10 bg-yellow-600 rounded-lg flex items-center justify-center p-4">
-                  <span className="text-xl text-white">
+              <div className="flex items-start gap-4 p-4 bg-black rounded-lg">
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-4">
+                  <span className="text-xl text-black">
                     <Brain size={24} />
                   </span>
                 </div>
@@ -113,19 +114,20 @@ const Section2 = () => {
           </div>
 
           {/* Colonne droite - Approche */}
-          <div className="w-full lg:w-1/2 transform hover:scale-90 transition duration-500">
-            <div className="bg-black/40 backdrop-blur-sm p-8 rounded-xl border border-yellow-300/30">
-              <h3 className="text-2xl font-bold text-yellow-300 mb-8 text-center">
+          <div className="w-full lg:w-1/2 transform hover:scale-98 transition duration-700">
+            <div className="bg-white backdrop-blur-sm p-8 md:px-16 rounded-xl border border-gray-900">
+              <h3 className="text-2xl font-bold text-black mb-8 text-center">
                 Notre approche en 3 étapes
               </h3>
+              <div className="w-18 h-1 bg-black mx-auto mb-6 -mt-4"></div>
 
               {/* Étape 1 - Comprendre */}
-              <div className="relative mb-10 ">
-                <div className="absolute -left-6 top-0 w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
+              <div className="relative bg-black mb-10 rounded-3xl p-2">
+                <div className="absolute -left-5 -top-2 w-12 h-12 bg-black rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xl">1</span>
                 </div>
                 <div className="ml-10">
-                  <h4 className="text-xl font-bold text-yellow-400 mb-2">
+                  <h4 className="text-xl font-bold text-white mb-2">
                     Comprendre
                   </h4>
                   <p className="text-gray-300">
@@ -135,14 +137,13 @@ const Section2 = () => {
                   </p>
                 </div>
               </div>
-
               {/* Étape 2 - Appliquer */}
-              <div className="relative mb-10">
-                <div className="absolute -left-6 top-0 w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
+              <div className="relative bg-black mb-10 rounded-3xl p-2">
+                <div className="absolute -left-5 -top-2 w-12 h-12 bg-black rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xl">2</span>
                 </div>
                 <div className="ml-10">
-                  <h4 className="text-xl font-bold text-yellow-400 mb-2">
+                  <h4 className="text-xl font-bold text-white mb-2">
                     Appliquer
                   </h4>
                   <p className="text-gray-300">
@@ -153,12 +154,12 @@ const Section2 = () => {
               </div>
 
               {/* Étape 3 - Progresser */}
-              <div className="relative">
-                <div className="absolute -left-6 top-0 w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
+              <div className="relative bg-black mb-10 rounded-3xl p-2">
+                <div className="absolute -left-5 -top-2 w-12 h-12 bg-black rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xl">3</span>
                 </div>
                 <div className="ml-10">
-                  <h4 className="text-xl font-bold text-yellow-400 mb-2">
+                  <h4 className="text-xl font-bold text-white mb-2">
                     Progresser
                   </h4>
                   <p className="text-gray-300">
@@ -169,8 +170,8 @@ const Section2 = () => {
               </div>
 
               {/* Phrase de conclusion */}
-              <div className="mt-12 p-6 bg-yellow-900/20 border-l-4 border-yellow-300 rounded-r">
-                <p className="text-lg italic text-yellow-100 text-center">
+              <div className="mt-12 p-6 md:p-4 bg-gray-200/50 border-l-4 border-black rounded-2xl">
+                <p className="text-lg md:text-xl italic text-black/80 font-medium text-center">
                   "Pas de magie, que de la méthode. Pas de hasard, que du
                   travail stratégique."
                 </p>

@@ -52,7 +52,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://tally.so/r/gDGMRl"
                 className="hover:text-yellow-400 transition-all duration-300 relative group"
               >
                 Nous rejoindre

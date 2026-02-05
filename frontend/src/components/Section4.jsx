@@ -10,10 +10,12 @@ const Section4 = () => {
           <div className="border-t border-yellow-300/20 my-10"></div>
 
           {/* Message final */}
-          <div className="text-center">
-            <p className="text-2xl md:text-3xl font-bold text-yellow-300 mb-6">
-              Bienvenue dans le HUB STRATÉGIQUE.
-            </p>
+          <div className="mb-10 animate__animated animate__fadeIn">
+            <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-yellow-400 text-center mb-4">
+              Bienvenue dans le{" "}
+              <span className="text-white">HUB STRATÉGIQUE</span>
+            </h1>
+            <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
           </div>
 
           {/* Carte principale */}
@@ -34,8 +36,8 @@ const Section4 = () => {
                 {/* Points clés */}
                 <div className="space-y-6 ">
                   <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-yellow-500/20 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shrink-0">
+                      <div className="w-2 h-2 bg-black rounded-full"></div>
                     </div>
                     <p className="text-lg text-gray-300">
                       On construit des compétences.
@@ -43,8 +45,8 @@ const Section4 = () => {
                   </div>
 
                   <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-yellow-500/20 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shrink-0">
+                      <div className="w-2 h-2 bg-black rounded-full"></div>
                     </div>
                     <p className="text-lg text-gray-300">
                       On bâtit des opportunités.
@@ -52,8 +54,8 @@ const Section4 = () => {
                   </div>
 
                   <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-yellow-500/20 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shrink-0">
+                      <div className="w-2 h-2 bg-black rounded-full"></div>
                     </div>
                     <p className="text-lg text-gray-300">
                       On crée des trajectoires.
@@ -64,9 +66,9 @@ const Section4 = () => {
             </div>
 
             {/* Call to Action finale */}
-            <div className="mt-12 pt-6  text-center transform hover:scale-125 transition duration-500">
-              <a href="">
-                <p className="text-yellow-400 text-sm">
+            <div className="mt-12 pt-6  text-center transform hover:scale-105 transition duration-700">
+              <a href="https://tally.so/r/gDGMRl">
+                <p className="bg-white text-black text-sm w-fit mx-auto p-1 md:p-2 rounded-xl hover:bg-yellow-400 transform transition-colors duration-700">
                   Prêt à commencer ? Rejoins-nous maintenant.
                 </p>
               </a>

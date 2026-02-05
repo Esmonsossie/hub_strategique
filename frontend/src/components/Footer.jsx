@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Colonne 1 : Navigation */}
           <div>
-            <h3 className="text-lg font-bold text-yellow-300 mb-4 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
               <Zap size={18} />
               Navigation
             </h3>
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://tally.so/r/gDGMRl"
                   className="text-gray-400 hover:text-yellow-400 transition"
                 >
                   Rejoindre
@@ -76,7 +76,7 @@ const Footer = () => {
 
           {/* Colonne 2 : Contact */}
           <div>
-            <h3 className="text-lg font-bold text-yellow-300 mb-4 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
               <MessageSquare size={18} />
               Contact
             </h3>
@@ -94,7 +94,7 @@ const Footer = () => {
 
           {/* Colonne 3 : Réseaux sociaux */}
           <div>
-            <h3 className="text-lg font-bold text-yellow-300 mb-4 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
               <Users size={18} />
               Nous suivre
             </h3>
