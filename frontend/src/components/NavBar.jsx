@@ -140,7 +140,7 @@ const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://tally.so/r/gDGMRl"
                       className="text-xl font-semibold block py-1 hover:text-gray-300 transition-all duration-300"
                       onClick={() => setIsMenuOpen(false)}
                     >

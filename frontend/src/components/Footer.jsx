@@ -9,6 +9,7 @@ import {
   Instagram,
   Linkedin,
   Twitter,
+  Phone,
 } from "lucide-react";
 import { FaFacebook, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
@@ -83,11 +84,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail size={16} />
-                <span>contact@xxxxxx.com</span>
+                <span>co-nginya@outlook.com</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Globe size={16} />
-                <span>www.xxxxxxxxxx.com</span>
+                <span>https://hub-strategique.vercel.app</span>
+              </li>
+              <li className="flex items-center gap-3 text-gray-400">
+                <Phone size={16} />
+                <span> +225 0585486565</span>
               </li>
             </ul>
           </div>
