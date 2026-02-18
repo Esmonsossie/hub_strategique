@@ -90,10 +90,13 @@ const Section1 = () => {
               </div>
 
               {/* Bouton CTA */}
+
               <div className="mt-8 md:mt-18 lg:mt-20 text-center">
-                <button className="bg-white text-black font-bold px-10 py-5 rounded-xl hover:bg-yellow-400 transform hover:scale-105 transition-all duration-600 shadow-lg text-lg">
-                  Rejoindre la communauté
-                </button>
+                <a href="https://tally.so/r/gDGMRl">
+                  <button className="bg-white text-black font-bold px-10 py-5 rounded-xl hover:bg-yellow-400 transform hover:scale-105 transition-all duration-600 shadow-lg text-lg">
+                    Rejoindre la communauté
+                  </button>
+                </a>
                 <p className="text-gray-300 mt-4 md:mt-8">
                   Commencez votre parcours stratégique dès aujourd'hui
                 </p>
